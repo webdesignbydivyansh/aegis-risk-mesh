@@ -4,7 +4,7 @@
 
 # 🛡️ Aegis Risk Mesh: Multi-Agent Predictive Intelligence
 
-**Aegis Risk Mesh** is a distributed, agentic ecosystem designed to perform autonomous risk assessment and predictive modeling. Unlike linear RAG pipelines, Aegis utilizes a **Stateful Agentic Mesh** powered by **LangGraph** and **Google ADK** to orchestrate specialized AI agents that negotiate outcomes through an **A2A (Agent-to-Agent)** protocol.
+**Aegis Risk Mesh** is a distributed, agentic ecosystem designed to perform autonomous risk assessment and predictive modeling. Unlike linear RAG pipelines, Aegis utilizes a **Stateful Agentic Mesh** powered by **LangGraph** to orchestrate specialized AI agents that negotiate outcomes through an **A2A (Agent-to-Agent)** protocol.
 
 The system is optimized for **local-first inference** on the Mac M4 (via Ollama) and utilizes the **Model Context Protocol (MCP)** to ingest unstructured "dark data" without compromising privacy.
 
@@ -42,8 +42,8 @@ Where $w_i$ is the feature weight, $v_i$ is the extracted value, and the confide
 | Category | Tools |
 | :--- | :--- |
 | **Language** | Python 3.12+ |
-| **Frameworks** | LangGraph, Google ADK, FastAPI |
-| **Inference** | Ollama (Llama 3.2 3B) |
+| **Frameworks** | LangGraph, Langchain, FastAPI |
+| **Inference** | Ollama (Llama 3) |
 | **ML Engine** | Scikit-Learn, Joblib, Numpy |
 | **Protocols** | MCP, WebSockets, GraphQL |
 
@@ -52,13 +52,13 @@ Where $w_i$ is the feature weight, $v_i$ is the extracted value, and the confide
 ## ⚙️ Setup & Installation
 
 ### **1. Prerequisites**
-* **Ollama** installed and running (`ollama run llama3.2`).
+* **Ollama** installed and running (`ollama run llama3`).
 * **Python 3.12** (Stable release recommended).
 
 ### **2. Installation**
 ```powershell
 # Clone the repository
-git clone https://github.com/pradeepdotidl/aegis-risk-mesh.git
+git clone https://github.com/webdesignbydivyansh/aegis-risk-mesh.git
 cd aegis-risk-mesh
 
 # Create a stable virtual environment

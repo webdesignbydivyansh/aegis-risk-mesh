@@ -31,7 +31,7 @@ async def lifespan(app: FastAPI):
 # --- APP SETUP ---
 app = FastAPI(
     title=settings.PROJECT_NAME,
-    description="A multi-agent risk intelligence mesh powered by Google ADK, LangGraph, and local ML.",
+    description="A multi-agent risk intelligence mesh powered by LangGraph and local ML.",
     version="1.0.0",
     lifespan=lifespan
 )
